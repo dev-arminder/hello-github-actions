@@ -1,0 +1,19 @@
+name: "Hello Actions"
+description: "Greet Github Actions"
+author: "Arminder Singh"
+
+inputs: 
+  MY_NAME: 
+     description: "Github"
+     required: true
+     default: "World"
+  
+runs:
+  using: "docker"
+  image: "dockerfile"
+
+branding: 
+  icon: "mic"
+  color: "purple"
+  
+  
